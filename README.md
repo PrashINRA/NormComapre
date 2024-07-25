@@ -8,7 +8,7 @@ library(Seurat)
 library(patchwork)
 #Load Seurat object named TCs
 # Perform SCTransform normalization
-TCs_sct <- SCTransform(TCs, verbose = TRUE)
+TCs_sct <- SCTransform(TCs, verbose = TRUE) #TCs is the Seurat object I have for my samples
 normalized_depth_sct <- colSums(GetAssayData(TCs_sct, slot = "data", assay = "SCT"))
 TCs_sct <- AddMetaData(TCs_sct, metadata = normalized_depth_sct, col.name = "normalized_depth_sct")
 
