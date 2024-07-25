@@ -1,9 +1,7 @@
 # NormComapre
 
-# Comparing 3 different Normalization stratagies
+# Comparing 3 different Normalization stratagies on samples with variable seq depth (78-462M reads per Sample)
 
-# Choice of resolution parameter might be tricky as it decides the number of cluster you are going to get.
-Single-cell clusters are mathematical constructs while cell types are biological truth. There must be a consensus between biology and mathematics to interpret single-cell clusters. Clustree is an R package which could be used on Seurat to see different number of clusters at different resolution and avoid noisy resolution. Afterwards, a prior biological knowledge of the data could be used to get the optimal  number of clusters.
 
 ```{r}
 library(Seurat)
