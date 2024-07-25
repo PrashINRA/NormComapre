@@ -56,3 +56,6 @@ combined_plot <- plot_sct + plot_log + plot_clr + plot_layout(ncol = 1)
 print(combined_plot)
 ```
 # This will generate a combined boxplot
+
+![nc](https://github.com/user-attachments/assets/3ec03dfa-dc16-4364-86d0-68534fdf5ffa)
+
