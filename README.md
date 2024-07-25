@@ -55,5 +55,4 @@ combined_plot <- plot_sct + plot_log + plot_clr + plot_layout(ncol = 1)
 # Display the combined plot
 print(combined_plot)
 ```
-# This will generate a tree of cluster with different reolutions
-I would avoid noisy resolutions like 0.4 and 0.5
+# This will generate a combined boxplot
